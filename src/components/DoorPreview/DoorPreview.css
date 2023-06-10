@@ -1,0 +1,35 @@
+marker-pin {
+  height: 50px;
+  width: 50px;
+}
+.loading-icon {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+
+  /* padding-bottom: 180px; */
+  border-radius: 50%;
+}
+.appointment-button {
+  background-color: #1a98d5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+}
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(26, 152, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

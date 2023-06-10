@@ -1,0 +1,17 @@
+.thankyou-tick {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.inputholder {
+  padding: 10px;
+  border-radius: 1px;
+  border: 1px solid #ccc;
+
+  width: 90%;
+}
