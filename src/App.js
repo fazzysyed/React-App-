@@ -77,8 +77,6 @@ function App() {
           <Route exact path="/:id" component={DoorPreview} />
         </HashRouter>
       )}
-
-      {/* <DoorPreview /> */}
     </div>
   );
 }

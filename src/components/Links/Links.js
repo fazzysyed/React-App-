@@ -1,7 +1,6 @@
 import React from "react";
 import "./Links.css";
-import Logo from "../../Assets/doorbelllogo.png";
-import Ring from "../../Assets/ringnotification.png";
+import Logo from "../../Assets/doorbelllogo.webp";
 
 const Links = (props) => {
   return (

@@ -109,6 +109,12 @@ function App({ back, door_id, device_id, url, forward }) {
       clearInterval(interval);
     };
   }, []);
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter" && formValue.trim() !== "") {
+      onSend();
+    }
+  };
   useLayoutEffect(() => {
     const messageRef = db
       .collection("chatrooms")
@@ -749,6 +755,7 @@ function App({ back, door_id, device_id, url, forward }) {
               <div style={{ display: "flex" }}>
                 <input
                   className="inputChat"
+                  onKeyPress={handleKeyPress}
                   value={formValue}
                   onChange={(e) => setFormValue(e.target.value)}
                   placeholder="Type message"
